@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F0F6FF;
+}
+#name{
+	height: auto;
+	width: auto;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+#input{
+	width: 650px;
+	height: 40px;
+	border: 2px solid #267DFF;
+	margin-left: 40px;
+}
+#input:focus{
+	outline: none;
+}
+#selection{
+	margin-top: 60px;
+	display: flex;
+}
+#selectioncontainer{
+	flex: 1;
+	height: auto;
+	width: auto;
+	margin-left: 30px;
+}
+#container{
+	height: 150px;
+	overflow-y: scroll;
+	width: 650px;
+	border-radius: 12px;
+	background-color: white;
+	border:1px solid rgb(214, 216, 222);
+	box-shadow: rgba(43, 54, 72, 0.06) 0px 3px 5px 4px;
+}
+#container span{
+	cursor: pointer;
+	border: 2px solid #267DFF;
+	padding: 10px;
+	margin-left: 80px;
+}
+#container::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+
+}
+
+#container::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #267DFF;
+}
+#answers{
+	margin-top: 60px;
+	display: flex;
+}
+#answerscontainer{
+	flex: 1;
+	height: auto;
+	width: auto;
+	margin-left: 180px;
+}
+#answersvalues{
+	height: 400px;
+	width: 600px;
+	overflow-y: scroll;
+	border-radius: 12px;
+	background-color: white;
+	border: 1px solid rgb(214, 216, 222);
+	box-shadow: rgba(43, 54, 72, 0.06) 0px 3px 5px 4px;
+}
+#answersvalues::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+
+}
+
+#answersvalues::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#answersvalues::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #267DFF;
+}
+#answersvalues p{
+	color: #267DFF;
+	margin-left: 50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#answersvalues textarea{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border: 2px solid #267DFF;
+	margin-left: 50px;
+}
